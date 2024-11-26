@@ -1,0 +1,43 @@
+﻿@model Final_MadonnaTizianoLab4.Models.Producto
+
+@{
+    ViewData["Title"] = "Crear producto";
+}
+
+<h1>Crear</h1>
+
+<h4>Producto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form class="form" method="post" asp-action="Importar" enctype="multipart/form-data">
+            <div class="form-group input-group justify-content-center">
+                <label for="archivo">Seleccione un archivo CSV:</label>
+                <input type="file" name="archivo" id="archivo" class="form-control-file mt-2">
+            </div>
+            <button type="submit" class="btn btn-primary mt-2 mb-2">Importar</button>
+        </form>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NameProducto" class="control-label"></label>
+                <input asp-for="NameProducto" class="form-control" />
+                <span asp-validation-for="NameProducto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button id="btn-crear" type="submit">Crear</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <form asp-action="Index" method="get">
+        <button id="btn-regresar" type="submit">Regresar</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<link rel="stylesheet" href="~/css/estilo.css">

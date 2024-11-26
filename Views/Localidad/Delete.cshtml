@@ -1,0 +1,38 @@
+﻿@model Final_MadonnaTizianoLab4.Models.Localidad
+
+@{
+    ViewData["Title"] = "Eliminar localidad";
+}
+
+<h1>Eliminar</h1>
+
+<h3>¿Está seguro de eliminar la localidad?</h3>
+<div>
+    <h4>Localidad</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NameLocalidad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NameLocalidad)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ProvinciaReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ProvinciaReferencial.NameProvincia)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" id="btn-eliminar">Eliminar</button>
+    </form>
+    <div>
+        <form asp-action="Index" method="get">
+            <button id="btn-regresar" type="submit">Regresar</button>
+        </form>
+    </div>
+</div>
+<link rel="stylesheet" href="~/css/estilo.css">

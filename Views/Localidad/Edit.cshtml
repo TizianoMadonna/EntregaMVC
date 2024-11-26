@@ -1,0 +1,42 @@
+﻿@model Final_MadonnaTizianoLab4.Models.Localidad
+
+@{
+    ViewData["Title"] = "Editar localidad";
+}
+
+<h1>Editar</h1>
+
+<h4>Localidad</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="NameLocalidad" class="control-label"></label>
+                <input asp-for="NameLocalidad" class="form-control" />
+                <span asp-validation-for="NameLocalidad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProvinciaId" class="control-label"></label>
+                <select asp-for="ProvinciaId" class="form-control" asp-items="ViewBag.ProvinciaId"></select>
+                <span asp-validation-for="ProvinciaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="btn-editar">Guardar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <form asp-action="Index" method="get">
+        <button id="btn-regresar" type="submit">Regresar</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<link rel="stylesheet" href="~/css/estilo.css">

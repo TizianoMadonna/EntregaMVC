@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinalMadonnaTizianoLab4.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalMadonnaTizianoLab4.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\IMG FINAL\\4148a42a67961d709ed243ac2b09eed4.png",
+      "PackagePath": "staticwebassets\\IMG FINAL\\4148a42a67961d709ed243ac2b09eed4.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\IMG FINAL\\Coca-Cola_logo.svg.png",
+      "PackagePath": "staticwebassets\\IMG FINAL\\Coca-Cola_logo.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\IMG FINAL\\LogoCocaCola.webp",
+      "PackagePath": "staticwebassets\\IMG FINAL\\LogoCocaCola.webp"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\IMG FINAL\\LogoCocaColaHeader-Photoroom.png",
+      "PackagePath": "staticwebassets\\IMG FINAL\\LogoCocaColaHeader-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\IMG FINAL\\LogoCocaColaHeader.png",
+      "PackagePath": "staticwebassets\\IMG FINAL\\LogoCocaColaHeader.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\IMG FINAL\\descarga.png",
+      "PackagePath": "staticwebassets\\IMG FINAL\\descarga.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\IMG FINAL\\logoBlanco.png",
+      "PackagePath": "staticwebassets\\IMG FINAL\\logoBlanco.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\css\\estilo.css",
+      "PackagePath": "staticwebassets\\css\\estilo.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\importacionesConductores\\1c718dd5f02c4484a107ec23f1b07483.csv",
+      "PackagePath": "staticwebassets\\importacionesConductores\\1c718dd5f02c4484a107ec23f1b07483.csv"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\importacionesConductores\\cdd691a63eb844cb84b2c0ce9d6283c3.csv",
+      "PackagePath": "staticwebassets\\importacionesConductores\\cdd691a63eb844cb84b2c0ce9d6283c3.csv"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\importacionesConductores\\d6049b5c632f47b5aca6e1f3b4094198.csv",
+      "PackagePath": "staticwebassets\\importacionesConductores\\d6049b5c632f47b5aca6e1f3b4094198.csv"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\importacionesLocalidades\\ae1d91d805b0444695b52c2ae195459b.csv",
+      "PackagePath": "staticwebassets\\importacionesLocalidades\\ae1d91d805b0444695b52c2ae195459b.csv"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\importacionesProductos\\7beeca6407e141f9ae8d929b20d94361.csv",
+      "PackagePath": "staticwebassets\\importacionesProductos\\7beeca6407e141f9ae8d929b20d94361.csv"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\importacionesProvincias\\2392d39bfc724af5a565051e9d9cc430.csv",
+      "PackagePath": "staticwebassets\\importacionesProvincias\\2392d39bfc724af5a565051e9d9cc430.csv"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\importacionesVehiculos\\6da400c0f09b43b5b1a571208bb40613.csv",
+      "PackagePath": "staticwebassets\\importacionesVehiculos\\6da400c0f09b43b5b1a571208bb40613.csv"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\importacionesVehiculos\\85108b26e190413595a1149e9ab4d9b1.csv",
+      "PackagePath": "staticwebassets\\importacionesVehiculos\\85108b26e190413595a1149e9ab4d9b1.csv"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\FinalMadonnaTizianoLab4\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalMadonnaTizianoLab4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalMadonnaTizianoLab4.props",
+      "PackagePath": "build\\FinalMadonnaTizianoLab4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalMadonnaTizianoLab4.props",
+      "PackagePath": "buildMultiTargeting\\FinalMadonnaTizianoLab4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalMadonnaTizianoLab4.props",
+      "PackagePath": "buildTransitive\\FinalMadonnaTizianoLab4.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

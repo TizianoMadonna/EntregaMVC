@@ -1,0 +1,50 @@
+﻿@model Final_MadonnaTizianoLab4.Models.Entrega
+
+@{
+    ViewData["Title"] = "Eliminar entrega";
+}
+
+<h1>Eliminar</h1>
+
+<h3>¿Está seguro de eliminar esta entrega?</h3>
+<div>
+    <h4>Entrega</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ConductorReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ConductorReferencial.NameConductor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VehiculoReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VehiculoReferencial.NameMatricula)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LocalidadReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LocalidadReferencial.NameLocalidad)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaEntrega)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FechaEntrega)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit"id="btn-eliminar">Eliminar</button>
+    </form>
+    <div>
+        <form asp-action="Index" method="get">
+            <button id="btn-regresar" type="submit">Regresar</button>
+        </form>
+    </div>
+</div>
+<link rel="stylesheet" href="~/css/estilo.css">

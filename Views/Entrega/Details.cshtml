@@ -1,0 +1,83 @@
+﻿@model Final_MadonnaTizianoLab4.Models.Entrega
+
+@{
+    ViewData["Title"] = "Detalles";
+    int totalCajas = 0;
+}
+
+<h1>Detalles</h1>
+
+<div>
+    <h4>Entrega</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ConductorReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ConductorReferencial.NameConductor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VehiculoReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VehiculoReferencial.NameMatricula)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LocalidadReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LocalidadReferencial.NameLocalidad)
+        </dd>
+        <dt class = "col-sm-2">
+            Provincia
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LocalidadReferencial.ProvinciaReferencial.NameProvincia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaEntrega)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FechaEntrega)
+        </dd>
+    <div>
+        <form class="text-center" asp-action="Index" method="get">
+            <button id="btn-regresar" type="submit">Regresar</button>
+        </form>
+    </div>
+        <p class="text-center">
+            Total cajas:
+            <script>
+                @foreach (var detalle in Model.Detalles)
+                {
+                    totalCajas += Convert.ToInt32(detalle.CantidadCajas);
+                }
+            </script>
+            @totalCajas
+        </p>
+    <h3>Productos:</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Cantidad de Cajas</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var detalle in Model.Detalles)
+        {
+            <tr>
+                <td>@detalle.ProductoReferencial?.NameProducto</td>
+                <td>@detalle.CantidadCajas</td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
+<div>
+    <form asp-action="Edit" asp-route-id="@Model.Id">
+        <button type="submit">Editar</button>
+    </form>
+</div>
+<link rel="stylesheet" href="~/css/estilo.css">

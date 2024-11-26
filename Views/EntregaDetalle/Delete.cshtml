@@ -1,0 +1,44 @@
+﻿@model Final_MadonnaTizianoLab4.Models.EntregaDetalle
+
+@{
+    ViewData["Title"] = "Eliminar detalle";
+}
+
+<h1>Eliminar</h1>
+
+<h3>¿Está seguro de eliminar el detalle?</h3>
+<div>
+    <h4>Detalle</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EntregaReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EntregaReferencial.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ProductoReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ProductoReferencial.NameProducto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CantidadCajas)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CantidadCajas)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" id="btn-eliminar">Eliminar</button>
+    </form>
+    <div>
+        <form asp-action="Index" method="get">
+            <button id="btn-regresar" type="submit">Regresar</button>
+        </form>
+    </div>
+</div>
+<link rel="stylesheet" href="~/css/estilo.css">

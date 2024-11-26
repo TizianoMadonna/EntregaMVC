@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Final_MadonnaTizianoLab4.Models.Conductor>
+
+@{
+    ViewData["Title"] = "Conductores";
+    int pageNumber = ViewBag.PageNumber;
+    int pageSize = ViewBag.PageSize;
+    int totalPages = ViewBag.TotalPages;
+}
+
+<h1>Conductores</h1>
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <form asp-action="Create" method="get">
+            <button type="submit">Agregar conductor</button>
+        </form>
+    </p>
+}
+<p>
+    <form asp-action="Index" method="get">
+        Conductor: <input type="text" name="busqConductor" />
+        <input type="submit" value="Filtrar" />
+    </form>
+</p>
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <form asp-action="EliminarTodo" method="post" onsubmit="return confirm('¿Estás seguro de que deseas eliminar todos los conductores?')">
+            <button type="submit" id="btn-eliminar-todo">Eliminar Todos</button>
+        </form>
+    </p>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NameConductor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameConductor)
+            </td>
+            <td>
+                    @if (User.IsInRole("Admin"))
+                    {
+                    <form asp-action="Edit" asp-controller="Conductor" method="get" asp-route-Id="@item.Id" id="btn-detalles-index">
+                        <button type="submit">Editar</button>
+                    </form>
+                    <form asp-action="Delete" asp-route-Id="@item.Id" asp-controller="Conductor" method="get" id="btn-eliminar-index">
+                        <button type="submit">Eliminar</button>
+                    </form>
+                    }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div class="pagination">
+    @if (pageNumber > 1)
+    {
+        <form asp-action="Index" asp-route-pageNumber="@(pageNumber - 1)" asp-route-pageSize="@pageSize">
+            <button type="submit">&larr;</button>
+        </form>
+    }
+
+    <span>Página @pageNumber de @totalPages</span>
+
+    @if (pageNumber < totalPages)
+    {
+        <form asp-action="Index" asp-route-pageNumber="@(pageNumber + 1)" asp-route-pageSize="@pageSize">
+            <button type="submit">&rarr;</button>
+        </form>
+    }
+</div>
+<link rel="stylesheet" href="~/css/estilo.css">

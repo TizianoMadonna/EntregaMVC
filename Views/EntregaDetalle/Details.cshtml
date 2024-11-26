@@ -1,0 +1,43 @@
+﻿@model Final_MadonnaTizianoLab4.Models.EntregaDetalle
+
+@{
+    ViewData["Title"] = "Detalles de entrega";
+}
+
+<h1>Detalles</h1>
+
+<div>
+    <h4>Entrega</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EntregaReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EntregaReferencial.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ProductoReferencial)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ProductoReferencial.NameProducto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CantidadCajas)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CantidadCajas)
+        </dd>
+    </dl>
+</div>
+<div>
+    <form asp-action="Edit" asp-route-id="@Model.Id">
+        <button type="submit">Editar</button>
+    </form>
+</div>
+<div>
+    <form asp-action="Index" method="get">
+        <button id="btn-regresar" type="submit">Regresar</button>
+    </form>
+</div>
+<link rel="stylesheet" href="~/css/estilo.css">

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FinalMadonnaTizianoLab4.props" />
+</Project>

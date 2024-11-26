@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Final_MadonnaTizianoLab4.Models.Entrega>
+
+@{
+    ViewData["Title"] = "Entregas";
+    int pageNumber = ViewBag.PageNumber;
+    int pageSize = ViewBag.PageSize;
+    int totalPages = ViewBag.TotalPages;
+}
+
+<h1>Entregas</h1>
+
+<p>
+    <form asp-action="Create" method="get">
+        <button type="submit" style="margin-bottom:20px">Agregar entrega</button>
+    </form>
+    <form asp-action="Index" method="get">
+        Código: <input type="text" name="busqCodigo" />
+        Conductor: <select name="busqConductor" asp-items="ViewBag.ConductorId">
+            <option value="">Todos</option>
+        </select>        
+        Vehículo: <select name="busqVehiculo" asp-items="ViewBag.VehiculoId">
+            <option value="">Todos</option>
+        </select>
+        Localidad: <select name="busqLocalidad" asp-items="ViewBag.LocalidadId">
+            <option value="">Todos</option>
+        </select>
+        Fecha: <input type="date" name="busqFecha" />
+        <p class="text-center">
+        <input type="submit" value="Filtrar" style="width:60px;"/>
+        </p>
+    </form>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConductorReferencial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehiculoReferencial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LocalidadReferencial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaEntrega)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConductorReferencial.NameConductor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehiculoReferencial.NameMatricula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocalidadReferencial.NameLocalidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaEntrega)
+            </td>
+            <td>
+                <form asp-action="Create" method="get" asp-controller="EntregaDetalle" id="btn-+detalles">
+                    <input type="hidden" name="entregaId" value="@item.Id"/>
+                        <button type="submit" class="btn-outline-success">+Detalles</button>
+                </form>
+                    @if (User.IsInRole("Admin"))
+                    {
+                <form asp-action="Edit" asp-controller="Entrega" method="get" asp-route-Id="@item.Id">
+                        <button id="btn-detalles-index" type="submit">Editar</button>
+                </form>
+                    }
+                <form asp-action="Details" asp-route-Id="@item.Id" asp-controller="Entrega" method="get" >
+                        <button id="btn-detalles-index" class="btn-info" type="submit">Detalles</button>
+                </form>
+                <form asp-action="Delete" asp-route-Id="@item.Id" asp-controller="Entrega" method="get" >
+                        <button id="btn-eliminar-index" class="btn-danger" type="submit">Eliminar</button>
+                </form>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div class="pagination">
+    @if (pageNumber > 1)
+    {
+        <form asp-action="Index" asp-route-pageNumber="@(pageNumber - 1)" asp-route-pageSize="@pageSize">
+            <button type="submit">&larr;</button>
+        </form>
+    }
+
+    <span>Página @pageNumber de @totalPages</span>
+
+    @if (pageNumber < totalPages)
+    {
+        <form asp-action="Index" asp-route-pageNumber="@(pageNumber + 1)" asp-route-pageSize="@pageSize">
+            <button type="submit">&rarr;</button>
+        </form>
+    }
+</div>
+<link rel="stylesheet" href="~/css/estilo.css">
